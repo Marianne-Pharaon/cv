@@ -12,13 +12,13 @@
     justify-content :flex-end; }
       
   .mypicture{
-    margin: bottom 20px;
+    margin:right 130px;
     width: 90px; height:90;
     display: flex;
     float: right;
     border-radius:50%;
-    border-color:black;
-    border: 2px solid;
+    border-color:rgb(0, 0, 0);
+    border: 5px solid;
     top:auto;
   }
           h3{ text-decoration:underline;

@@ -27,14 +27,20 @@
 
           }
 
-     @media(max-width:700px){
+          
+
+     @media screen (max-width:700px){
+      tr td{ display:flex; 
+        flex-direction: column;}
+
         h3{ color:rgb(140, 63, 212) }
-        .myDiv{width=100%}
-        .maindiv{width=100%}
-        .d1{width=100%}
-        .d2{width=100%}
+        .myDiv .d1 .d2{
+          width:100%;
+        }
+        
      }     
       
+    
     .button{
         border-radius:9px;
         background-color: grey;

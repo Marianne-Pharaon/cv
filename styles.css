@@ -1,0 +1,62 @@
+
+.myDiv {
+        border: 5px ;
+        background-color: rgb(83, 40, 185);}
+
+ .d1{
+    width: 50%; 
+    justify-content :flex-start;
+    ;
+ }       
+ .d2{width: 50%;
+    justify-content :flex-end; }
+      
+  .mypicture{
+    margin: bottom 20px;
+    width: 90px; height:90;
+    display: flex;
+    float: right;
+    border-radius:50%;
+    border-color:black;
+    border: 2px solid;
+    top:auto;
+  }
+          h3{ text-decoration:underline;
+            font-weight: bold;
+        
+
+          }
+      
+    .button{
+        border-radius:9px;
+        background-color: grey;
+        height:20px;
+        width:400px;
+        text-align: center;
+        
+    } 
+    nav li {
+        color: rgb(64, 176, 198);
+        text-decoration: none;
+        display: inline;
+        padding : 0 10px 0 10px;
+    }
+.navcolor{
+    background-color:rgb(111, 111, 189);
+    radius: 5px;
+}
+.maindiv{
+display :flex;    
+}
+
+h1{
+    color: rgb(56, 133, 181);
+    text-decoration:underline;
+
+}
+h2 {
+        color: rgb(24, 188, 144);
+        text-decoration:underline;
+        font-weight: bold;
+    
+}

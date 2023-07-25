@@ -1,76 +1,93 @@
-
 .myDiv {
-        border: 5px ;
-        background-color: rgb(83, 40, 185);}
+  border: 5px;
+  background-color: rgb(83, 40, 185);
+}
 
- .d1{
-    width: 50%; 
-    justify-content :flex-start;
-    ;
- }       
- .d2{width: 50%;
-    justify-content :flex-end; }
-      
-  .mypicture{
-    margin:right 130px;
-    width: 90px; height:90;
+.d1 {
+  width: 50%;
+  justify-content: flex-start;
+  ;
+}
+
+.d2 {
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.mypicture {
+  margin: right 130px;
+  width: 90px;
+  height: 90;
+  display: flex;
+  float: right;
+  border-radius: 50%;
+  border-color: rgb(0, 0, 0);
+  border: 5px solid;
+  top: auto;
+}
+
+h3 {
+  text-decoration: underline;
+  font-weight: bold;
+
+
+}
+
+
+
+@media  (max-width:700px) {
+  
+  .maindiv {
     display: flex;
-    float: right;
-    border-radius:50%;
-    border-color:rgb(0, 0, 0);
-    border: 5px solid;
-    top:auto;
+    flex-direction: column;
+}
+  
+
+  h3 {
+    color: rgb(140, 63, 212)
   }
-          h3{ text-decoration:underline;
-            font-weight: bold;
-        
 
-          }
-
-          
-
-     @media screen (max-width:700px){
-      tr td{ display:flex; 
-        flex-direction: column;}
-
-        h3{ color:rgb(140, 63, 212) }
-        .myDiv .d1 .d2{
-          width:100%;
-        }
-        
-     }     
-      
-    
-    .button{
-        border-radius:9px;
-        background-color: grey;
-        height:20px;
-        width:400px;
-        text-align: center;
-        
-    } 
-    nav li {
-        color: rgb(64, 176, 198);
-        text-decoration: none;
-        display: inline;
-        padding : 0 10px 0 10px;
-    }
-.navcolor{
-    background-color:rgb(111, 111, 189);
-    radius: 5px;
-}
-.maindiv{
-display :flex;    
-}
-
-h1{
-    color: rgb(56, 133, 181);
-    text-decoration:underline;
+  .myDiv .d1 .d2 {
+    width: 100%;
+  }
 
 }
+
+
+.button {
+  border-radius: 9px;
+  background-color: grey;
+  height: 20px;
+  width: 400px;
+  text-align: center;
+
+}
+
+nav li {
+  color: rgb(64, 176, 198);
+  text-decoration: none;
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+.navcolor {
+  background-color: rgb(111, 111, 189);
+  radius: 5px;
+}
+
+.maindiv {
+  display: flex;
+}
+
+h1 {
+  color: rgb(56, 133, 181);
+  text-decoration: underline;
+
+}
+
 h2 {
-        color: rgb(24, 188, 144);
-        text-decoration:underline;
-        font-weight: bold;
-    
+  color: rgb(24, 188, 144);
+  text-decoration: underline;
+  font-weight: bold;
+
 }
